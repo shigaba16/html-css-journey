@@ -59,15 +59,17 @@ img {
 .table,
 th,
 td {
+  float: right;
   width: 30%;
+  overflow: hidden;
   border: 1px solid #333;
   border-collapse: collapse;
   text-align: center;
-  float: right;
 }
 
 /* Footer */
 #main-footer {
+  clear: both;
   text-align: center;
   background: #444;
   color: #fff;
