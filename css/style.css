@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
+  /* height: 100vh; */
+}
+#section-a {
+  background: #19628a;
+  overflow: auto;
+  color: #fff;
+  height: 25%;
+  /* justify-content: space-between; */
+  padding: 3rem;
+}
+
+img {
+  float: right;
+  display: block;
+  width: 200px;
+}
+
+/* Button styling */
+.btn {
+  display: inline-block;
+  background: #fd862f;
+  color: #fff;
+  padding: 0.5rem 3rem;
+  border: none;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.btn-form {
+  display: inline-block;
+  background: #fd862f;
+  color: #fff;
+  width: 27%;
+  padding: 0.5rem 2rem;
+  border: none;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/* Form */
+#main-form,
+.btn-form {
+  margin-bottom: 1rem;
+}
+
+#main-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#main-form input {
+  width: 26%;
+  padding: 0.3rem;
+}
+
+.table,
+th,
+td {
+  width: 30%;
+  border: 1px solid #333;
+  border-collapse: collapse;
+  text-align: center;
+  float: right;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 0.5rem;
+}
