@@ -3,6 +3,10 @@ body {
   line-height: 1.5rem;
   /* height: 100vh; */
 }
+
+.clear {
+  clear: both;
+}
 #section-a {
   background: #19628a;
   overflow: auto;
@@ -52,15 +56,28 @@ img {
 }
 
 #main-form input {
-  width: 26%;
+  width: 80%;
   padding: 0.3rem;
 }
 
+#main-form {
+  float: left;
+  width: 50%;
+}
+#main-table {
+  float: right;
+  width: 50%;
+}
+.table {
+  width: 100%;
+}
+th,
+td {
+  width: 30%;
+}
 .table,
 th,
 td {
-  float: right;
-  width: 30%;
   border: 1px solid #333;
   border-collapse: collapse;
   text-align: center;
