@@ -43,6 +43,7 @@ img {
 }
 
 /* Form */
+
 .form,
 .btn-form {
   margin-bottom: 1rem;
@@ -79,6 +80,11 @@ td {
   border: 1px solid #dddddd;
   border-collapse: collapse;
   text-align: center;
+}
+
+.text {
+  width: 3rem 0.75rem;
+  line-height: 1.5rem;
 }
 
 /* Footer */
