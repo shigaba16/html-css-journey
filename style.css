@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
-  /* height: 100vh; */
 }
 
 .clear {
@@ -12,7 +11,6 @@ body {
   overflow: auto;
   color: #fff;
   height: 25%;
-  /* justify-content: space-between; */
   padding: 3rem;
 }
 
@@ -45,26 +43,26 @@ img {
 }
 
 /* Form */
-#main-form,
+.form,
 .btn-form {
   margin-bottom: 1rem;
 }
 
-#main-form label {
+.form label {
   display: block;
   margin-bottom: 1rem;
 }
 
-#main-form input {
-  width: 80%;
+.form input {
+  width: 25%;
   padding: 0.3rem;
 }
 
-#main-form {
+.form {
   float: left;
   width: 50%;
 }
-#main-table {
+.main-table {
   float: right;
   width: 50%;
 }
@@ -73,22 +71,18 @@ img {
 }
 th,
 td {
-  width: 30%;
+  width: 10%;
 }
 .table,
 th,
 td {
-  border: 1px solid #333;
+  border: 1px solid #dddddd;
   border-collapse: collapse;
   text-align: center;
 }
 
-.h1 {
-  text-align: center;
-}
-
 /* Footer */
-#main-footer {
+.footer {
   clear: both;
   text-align: center;
   background: #444;
