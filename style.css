@@ -32,7 +32,6 @@ p {
   background: #19628a;
   overflow: auto;
   color: #fff;
-  /* height: 25%; */
   padding: 1rem;
 }
 
@@ -53,15 +52,13 @@ img {
   text-decoration: none;
 }
 
-.btn-form {
-  display: inline-block;
+.submit {
   background: #fd862f;
   color: #fff;
-  width: 26%;
-  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
   border: none;
-  font-size: 1.5rem;
   text-decoration: none;
+  padding: 1rem 0.5rem;
 }
 
 /* Form */
