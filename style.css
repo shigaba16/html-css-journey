@@ -22,8 +22,13 @@ body {
   clear: both;
 }
 
+.p {
+  width: 45%;
+  line-height: 2rem;
+}
+
 .l-heading {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 #section-a {
