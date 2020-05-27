@@ -10,10 +10,12 @@ body {
 }
 
 .container {
-  margin: 0.4rem;
+  width: 90%;
+  /* margin: auto; */
+  margin: 0.5rem 0;
   max-width: 1100px;
   overflow: auto;
-  padding: 0 1.5rem;
+  padding: 2rem;
 }
 
 .clear {
@@ -21,16 +23,11 @@ body {
 }
 
 .l-heading {
-  padding-bottom: 1rem;
-}
-
-p {
-  margin: 2rem 0;
+  font-size: 1.5rem;
 }
 
 #section-a {
   background: #19628a;
-  overflow: auto;
   color: #fff;
   padding: 1rem;
 }
@@ -52,13 +49,12 @@ img {
   text-decoration: none;
 }
 
-.submit {
+.submit-btn {
   background: #fd862f;
   color: #fff;
   font-size: 1rem;
   border: none;
   text-decoration: none;
-  padding: 1rem 0.5rem;
 }
 
 /* Form */
@@ -75,8 +71,9 @@ img {
 }
 
 .form input {
-  width: 26%;
-  padding: 0.3rem;
+  width: 40%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
 }
 
 .form {
@@ -85,14 +82,17 @@ img {
 }
 .main-table {
   float: right;
-  width: 50%;
+  width: 35%;
 }
+
 .table {
   width: 100%;
 }
+
 th,
 td {
-  width: 10%;
+  width: 35%;
+  height: 2.5rem;
 }
 .table,
 th,
@@ -102,16 +102,11 @@ td {
   text-align: center;
 }
 
-.text {
-  width: 3rem 0.75rem;
-  line-height: 1.5rem;
-}
-
 /* Footer */
 .footer {
   clear: both;
   text-align: center;
   background: #444;
   color: #fff;
-  padding: 0.4rem;
+  padding: 1.4rem;
 }
