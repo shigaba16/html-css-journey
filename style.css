@@ -31,6 +31,10 @@ body {
   font-size: 3rem;
 }
 
+.m-heading {
+  font-size: 1.2rem;
+}
+
 #section-a {
   background: #19628a;
   color: #fff;
