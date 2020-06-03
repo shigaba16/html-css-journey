@@ -15,9 +15,10 @@ a {
   text-decoration: none;
 }
 
-p {
+.paragraph {
   width: 500px;
   line-height: 1.7rem;
+  font-size: 1rem;
 }
 
 h1 {
@@ -45,6 +46,7 @@ h2 {
   width: 49%;
   overflow: hidden;
   vertical-align: top;
+  line-height: 1.5rem;
 }
 
 img {
@@ -137,7 +139,7 @@ td {
   height: 60px;
   background: #333;
   color: #fff;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 footer p {
