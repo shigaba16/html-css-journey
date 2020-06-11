@@ -3,44 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   min-width: 100vh;
 }
-
 a {
   text-decoration: none;
 }
-
 .paragraph {
   width: 500px;
   line-height: 2.5rem;
   font-size: 1.7rem;
 }
-
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-
 h2 {
   font-size: 1.7rem;
 }
-
 .container {
   width: 90%;
   margin: auto;
   padding: 50px 0;
 }
-
 .background {
   background: #19628a;
   color: #fff;
 }
-
 .fifty {
   display: inline-block;
   width: 49%;
@@ -48,18 +40,15 @@ h2 {
   vertical-align: top;
   line-height: 2.4rem;
 }
-
 img {
   width: 35%;
   margin-left: 60%;
   margin-right: 0;
 }
-
 .right {
   margin-left: 30%;
   margin-right: 0;
 }
-
 /* Button styling */
 .btn {
   display: inline-block;
@@ -73,7 +62,6 @@ img {
   line-height: 1.5rem;
   margin-top: 1.5rem;
 }
-
 .submit-btn {
   background: #fd862f;
   color: #fff;
@@ -85,31 +73,25 @@ img {
   margin-top: 1.5rem;
   font-size: 1.7rem;
 }
-
 /* Form */
-
 .form,
 .submit-btn {
   padding-top: 1rem;
   margin-bottom: 1rem;
   /* line-height: 1.5rem; */
 }
-
 .form label {
   display: block;
   margin-bottom: 1rem;
 }
-
 .form input {
   width: 40%;
   padding: 0.5rem;
   border: 1px solid #ccc;
 }
-
 .form {
   width: 100%;
 }
-
 table {
   font-size: 20px;
   border: 1px solid #dddddd;
@@ -120,33 +102,28 @@ table {
   margin-top: 1rem;
   width: 70%;
 }
-
 th {
   height: 2rem;
 }
-
 td {
   height: 2.5rem;
 }
-
 th,
 td {
   border: 1px solid #dddddd;
   border-collapse: collapse;
   text-align: center;
 }
-
 /* Footer */
-
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   background: #333;
   color: #fff;
   padding: 2rem;
+  margin-top: 20px;
 }
-
 footer p {
   text-align: center;
 }
