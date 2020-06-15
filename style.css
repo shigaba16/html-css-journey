@@ -125,6 +125,7 @@ article {
 article h2 {
   color: #333333;
   font-size: 2rem;
+  line-height: 2rem;
 }
 
 article p {
@@ -136,7 +137,8 @@ article .fifty {
   display: inline-block;
   text-align: center;
   width: 30%;
-  line-height: 2rem;
+  line-height: 2.5rem;
+  padding: 2rem;
 }
 
 /* Form */
