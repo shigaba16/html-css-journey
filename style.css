@@ -65,7 +65,7 @@ h2 {
   font-size: 1.7rem;
 }
 .container {
-  width: 90%;
+  width: 85%;
   margin: auto;
   padding: 50px 0;
 }
@@ -123,9 +123,10 @@ article {
 }
 
 article h2 {
-  color: #333333;
+  color: #000;
   font-size: 2rem;
-  line-height: 2rem;
+  line-height: 5rem;
+  font-weight: bold;
 }
 
 article p {
