@@ -205,17 +205,13 @@ footer p {
 }
 
 .lead {
-  line-height: 2rem;
-  font-size: 1.7rem;
+  line-height: 2.5rem;
+  font-size: 2rem;
 }
 
 .twenty {
-  /* display: inline-block; */
-  /* vertical-align: top; */
-  /* width: 70%; */
-  /* overflow: hidden; */
   display: inline-block;
-  width: 70%;
+  width: 29%;
   overflow: hidden;
   vertical-align: top;
   line-height: 2.4rem;
@@ -224,7 +220,7 @@ footer p {
 .sixty {
   display: inline-block;
   vertical-align: middle;
-  width: 29%;
+  width: 70%;
   overflow: hidden;
 }
 
@@ -250,7 +246,25 @@ footer p {
 }
 
 .image {
-  width: 40%;
+  width: 65%;
   margin-left: 0;
+  margin-top: 25%;
   margin-right: 60%;
+}
+
+.img-2 {
+  width: 65%;
+  margin-left: 35%;
+  margin-top: 25%;
+  margin-right: 0;
+}
+
+.margin-bottom {
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
