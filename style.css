@@ -195,3 +195,26 @@ td {
 footer p {
   text-align: center;
 }
+/* Service */
+.service-content {
+  background: #19628a;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+}
+
+.lead {
+  line-height: 2rem;
+  font-size: 1.7rem;
+}
+
+.twenty {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  overflow: hidden;
+}
+.twenty-left {
+  align-items: left;
+}
