@@ -209,12 +209,18 @@ footer p {
   font-size: 2.1rem;
 }
 
+.row {
+  display: flex;
+  align-items: stretch;
+}
+
 .twenty {
   display: inline-block;
   width: 29%;
   overflow: hidden;
   vertical-align: top;
   line-height: 2.4rem;
+  margin: auto;
 }
 
 .sixty {
@@ -264,12 +270,12 @@ footer p {
 }
 
 .margin-bottom {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   line-height: 2rem;
   margin-bottom: 1rem;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
 }
