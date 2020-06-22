@@ -254,19 +254,12 @@ footer p {
 .image {
   width: 75%;
   margin: auto;
-  /* margin-left: 0; */
-  /* margin-top: 35%; */
-  /* margin-right: 60%; */
-  /* margin-bottom: 25%; */
 }
 
 .img-2 {
   width: 75%;
   margin: auto;
   margin-left: 25%;
-  /* margin-top: 35%; */
-  /* margin-right: 0; */
-  /* margin-bottom: 25%; */
 }
 
 .margin-bottom {
@@ -278,4 +271,31 @@ footer p {
 p {
   font-size: 1.5rem;
   line-height: 2.5rem;
+}
+
+/* Contact */
+.contact-content {
+  background: #19628a;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+}
+
+/* Button */
+.send {
+  display: inline-block;
+  background: #fd862f;
+  color: #fff;
+  padding: 0.5rem 5.5rem;
+  border: none;
+  font-size: 1rem;
+  text-decoration: none;
+  /* margin-top: 0.5rem; */
+}
+
+.other-img {
+  width: 40%;
+  margin: auto;
+  margin-left: 60%;
 }
