@@ -283,7 +283,7 @@ p {
 }
 
 /* Button */
-.send {
+/* .send {
   display: inline-block;
   background: #fd862f;
   color: #fff;
@@ -292,7 +292,7 @@ p {
   font-size: 1rem;
   text-decoration: none;
   margin-top: 0.5rem;
-}
+} */
 
 .other-img {
   width: 40%;
