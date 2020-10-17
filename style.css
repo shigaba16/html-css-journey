@@ -181,19 +181,7 @@ td {
   border-collapse: collapse;
   text-align: center;
 }
-/* Footer */
-.footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  background: #333;
-  color: #fff;
-  padding: 2rem;
-  margin-top: 20px;
-}
-footer p {
-  text-align: center;
-}
+
 /* Service */
 .service-content {
   background: #19628a;
@@ -280,18 +268,6 @@ p {
   width: 100%;
   margin: auto;
 }
-
-/* Button */
-/* .send {
-  display: inline-block;
-  background: #fd862f;
-  color: #fff;
-  padding: 0.5rem 5.5rem;
-  border: none;
-  font-size: 1rem;
-  text-decoration: none;
-  margin-top: 0.5rem;
-} */
 
 .other-img {
   width: 40%;

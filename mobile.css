@@ -5,8 +5,10 @@
 }
 
 .navbar ul,
-.navbar ul li {
+.navbar ul li a {
   display: inline-block;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .navbar ul li a {
@@ -15,6 +17,14 @@
 
 img {
   display: none;
+}
+
+.paragraph {
+  width: 300px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  /* text-align: center; */
+  margin: auto;
 }
 
 .btn {
@@ -35,4 +45,77 @@ article .fifty {
 
 table {
   margin: auto;
+}
+
+/* Contact page */
+.lead {
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.h {
+  font-size: 2.5rem;
+}
+
+.form input {
+  width: 50%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  display: block;
+  margin: auto;
+}
+
+/* Service */
+.sixty {
+  display: inline;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.twenty {
+  display: inline;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.row {
+  display: inline;
+  text-align: center;
+}
+
+.service-1 {
+  color: #333333;
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+.service-2 {
+  background-color: #f5f5f5;
+  color: #333333;
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+.service-3 {
+  color: #333333;
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  font-size: 1.2rem;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  margin-top: 20px;
+}
+footer p {
+  text-align: center;
 }
