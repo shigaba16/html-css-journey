@@ -274,3 +274,17 @@ p {
   margin: auto;
   margin-left: 60%;
 }
+
+.footer {
+  position: relative;
+  font-size: 1.2rem;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  margin-top: 20px;
+}
+footer p {
+  text-align: center;
+}

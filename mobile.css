@@ -9,6 +9,7 @@
   display: inline-block;
   font-size: 1.2rem;
   text-align: center;
+  margin: auto;
 }
 
 .navbar ul li a {
